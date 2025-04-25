@@ -14,8 +14,8 @@ def train_model():
         epochs=200,
         imgsz=640,
         device=device,
-        workers =2,
-        batch =4,
+        workers =0,
+        batch =16,
     )
     # 进行模型验证
     model.val()
